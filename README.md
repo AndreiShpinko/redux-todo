@@ -1,4 +1,4 @@
-# [_todo_](https://andreishpinko.github.io/todo) 😊
+# [_todo_](https://andreishpinko.github.io/todo-react-redux) 😊
 
 ```
 Responsive React Redux Todo App.
