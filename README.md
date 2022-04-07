@@ -4,4 +4,4 @@
 Responsive React Redux Todo App.
 ```
 ## Preview
-![Screen](https://github.com/AndreiShpinko/todo/blob/master/public/readme/screen.jpg)
+![Screen](https://github.com/AndreiShpinko/todo-react-redux/blob/master/public/readme/screen.jpg)
