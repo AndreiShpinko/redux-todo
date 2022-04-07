@@ -1,0 +1,47 @@
+@import "../variables.scss";
+
+.button {
+  margin-right: 8px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  min-width: 50px;
+  border: none;
+  background-color: $color-primary;
+  cursor: pointer;
+
+  font-family: "Raleway", sans-serif;
+  font-size: $font-size-md;
+  font-weight: 500;
+  color: #fff;
+
+  transition: 0.3s;
+
+  &:disabled {
+    opacity: 0.6;
+  }
+  &:hover {
+    background-color: darken($color: $color-primary, $amount: 10);
+  }
+  &:focus {
+    outline: none;
+  }
+  &.active {
+    background-color: darken($color: $color-primary, $amount: 20);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    border-radius: 8px;
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .button {
+    padding: 5px;
+    min-width: 40px;
+    border-radius: 6px;
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,14 @@
+// Color
+$color-primary: rgb(255, 142, 142);
+$color-secondary: rgb(255, 190, 190);
+
+// Gradient
+$gradient-wrapper: linear-gradient(225deg, darken($color: $color-primary, $amount: 5), $color-primary);
+$gradient: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% );
+
+// Font
+$font-size-sm: 14px;
+$font-size-md: 20px;
+$font-size-lg: 26px;
+$font-size-xl: 32px;
+$font-size-xxl: 54px;

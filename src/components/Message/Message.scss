@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+.message {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $font-size-xxl;
+  color: #fff;
+  text-align: center;
+  img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .message {
+    font-size: $font-size-xl;
+    img {
+      width: 70px;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .message {
+    img {
+      width: 50px;
+    }
+  }
+}
